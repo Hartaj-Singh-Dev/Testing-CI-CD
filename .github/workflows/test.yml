@@ -4,5 +4,6 @@ jobs:
     build-app:
        runs-on: ubuntu-latest
        steps:
-         - run: tree
+          - run: tree
+          - uses: action/setup-node@v2
    
