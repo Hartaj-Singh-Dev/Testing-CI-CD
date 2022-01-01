@@ -11,7 +11,7 @@ function App() {
           Edit <code>src/App.jsx</code> and save to reload!
         </p>
         <span className="App-link">
-          Hello from Hartaj , this production is being deployed by Gtihub
+         this production is being deployed by Gtihub
           Actions , on pushing commits to github repo Yeahhhhh!! 🚀
         </span>
       </header>
