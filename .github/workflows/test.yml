@@ -5,5 +5,5 @@ jobs:
        runs-on: ubuntu-latest
        steps:
           - run: tree
-          - uses: action/setup@checkout
+          - uses: actions/checkout@v2
    
