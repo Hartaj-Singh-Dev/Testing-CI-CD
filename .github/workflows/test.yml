@@ -7,6 +7,9 @@ jobs:
           - uses: actions/setup-node@v2
             with:
                node-version: '14'
+         - name: Installing node modules
+           run: yarn 
+           
           - name: Build the project
             run: yarn build
           - name: Setup finished
