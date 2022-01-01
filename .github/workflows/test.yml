@@ -7,6 +7,6 @@ jobs:
           - uses: actions/setup-node@v2
             with:
                node-version: '14'
-          - run: tree
-          - run: node -v
+          - name: Build the project
+            run: yarn build
    
