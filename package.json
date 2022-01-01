@@ -4,7 +4,7 @@
         "scripts": {
                 "start": "snowpack dev",
                 "build": "snowpack build",
-                "deploy": "cd build && vc --production"
+                "deploy": "cd build && vc --prod"
         },
         "dependencies": {
                 "react": "^18.0.0-alpha-64931821a-20210808",
