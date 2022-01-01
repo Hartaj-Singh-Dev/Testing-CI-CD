@@ -9,4 +9,6 @@ jobs:
                node-version: '14'
           - name: Build the project
             run: yarn build
+          - name: Setup finished
+            run: echo "Hurray!! it's fucking working"
    
