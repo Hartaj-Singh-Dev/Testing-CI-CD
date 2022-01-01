@@ -4,7 +4,7 @@
         "scripts": {
                 "start": "snowpack dev",
                 "build": "snowpack build",
-                "deploy": "vc build --prod --token=J8xqnWMeG3l7XCBdB2zCDvug"
+                "deploy": "vc build --prod --confirm --token=J8xqnWMeG3l7XCBdB2zCDvug"
         },
         "dependencies": {
                 "react": "^18.0.0-alpha-64931821a-20210808",
