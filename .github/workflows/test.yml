@@ -29,4 +29,9 @@ jobs:
             run: yarn deploy
           - name: Setup finished
             run: echo "Hurray!! it's fucking working"
-   
+    test-app:
+        needs: build-app
+        runs-on: ubuntu-latest
+        steps:
+          - run: echo "YOLO"
+
