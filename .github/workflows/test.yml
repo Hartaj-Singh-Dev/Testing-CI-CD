@@ -8,4 +8,5 @@ jobs:
             with:
                node-version: '14'
           - run: tree
+          - run: node -v
    
