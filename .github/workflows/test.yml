@@ -16,6 +16,7 @@ jobs:
             run: |
               cd build
               mkdir .vercel
+              cd .vercel
               touch project.json
               echo '{"orgId":"Of3lszLZYc7KYBqeN8djmfqS","projectId":"prj_z4tJZtBc7DXNbjoUIBSWK3XOYuKQ"}' > project.json
           
